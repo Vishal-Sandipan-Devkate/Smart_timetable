@@ -137,3 +137,38 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+##################################################
+# Project Specific (Timetable Scheduler)
+##################################################
+
+# Frontend
+frontend/node_modules/
+frontend/.cache/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+frontend/.parcel-cache/
+
+# Backend (Node / Python)
+backend/node_modules/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+
+# OR-Tools temp / solver logs
+*.lp
+*.sol
+*.mps
+
+# OS junk
+.DS_Store
+Thumbs.db
